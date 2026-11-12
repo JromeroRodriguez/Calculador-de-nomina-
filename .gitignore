@@ -1,0 +1,23 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Frontend dependencies and generated output
+node_modules/
+dist/
+
+# Local payroll records and backups
+/backend/app/data/*.txt
+
+# Local project files
+/.vscode/
+/Sistema_de_Nomina_Sena.zip
+.DS_Store
